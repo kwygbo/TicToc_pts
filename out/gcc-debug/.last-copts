@@ -1,0 +1,1 @@
+-gstabs+ -Wall -fno-stack-protector   -I/usr/include  -DHAVE_PCAP -DXMLPARSER=libxml -DWITH_PARSIM -DWITH_NETBUILDER  -I. -Ic:/omnetpp-4.2/include
