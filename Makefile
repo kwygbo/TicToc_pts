@@ -28,7 +28,7 @@ PROJECTRELATIVE_PATH =
 O = $(PROJECT_OUTPUT_DIR)/$(CONFIGNAME)/$(PROJECTRELATIVE_PATH)
 
 # Object files for local .cc and .msg files
-OBJS = $O/txc1.o
+OBJS = $O/txc1.o $O/txc10.o $O/txc2.o $O/txc3.o $O/txc4.o
 
 # Message files
 MSGFILES =
@@ -112,4 +112,8 @@ depend:
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 $O/txc1.o: txc1.cc
+$O/txc10.o: txc10.cc
+$O/txc2.o: txc2.cc
+$O/txc3.o: txc3.cc
+$O/txc4.o: txc4.cc
 
